@@ -30,3 +30,6 @@ set cino=(1sm1
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+autocmd FileType cpp nnoremap <buffer> <c-]> :YcmCompleter GoTo<CR>
+autocmd FileType dart nnoremap <buffer> <c-]> :YcmCompleter GoToDefinition<CR>
