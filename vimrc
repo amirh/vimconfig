@@ -20,3 +20,13 @@ call plug#end()
 
 " Invoke fzf on double leader
 nnoremap <leader><leader> :FZF<CR>
+
+" Indentation rules
+"
+" (1s means to indent one shitwidth
+" m1 means to line the closing parenthesis with the first character of the line
+" with the matching openning parenthesis.
+set cino=(1sm1
+set expandtab
+set shiftwidth=2
+set softtabstop=2
