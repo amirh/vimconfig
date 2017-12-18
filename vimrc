@@ -12,6 +12,7 @@ let g:ycm_dart_sdk_path="/Users/amirha/flutter//bin/cache/artifacts/engine/darwi
 Plug 'valloric/youcompleteme'
 Plug 'dart-lang/dart-vim-plugin'
 Plug '/Users/amirha/homebrew/opt/fzf'
+Plug 'jlanzarotta/bufexplorer'
 
 autocmd GuiEnter * colorscheme molokai
 
